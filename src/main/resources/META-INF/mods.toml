@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/hammertater/treeworld/issues"
+
+[[mods]]
+modId="treeworld"
+version="${file.jarVersion}"
+displayName="HT's TreeWorld"
+updateJSONURL="https://raw.githubusercontent.com/hammertater/treeworld/main/update.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/treeworld"
+logoFile="logo.png"
+authors="HammerTater"
+description="Something about trees and worlds."

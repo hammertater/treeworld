@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "treeworld:block/loam"
+      },
+      {
+        "model": "treeworld:block/loam",
+        "y": 90
+      },
+      {
+        "model": "treeworld:block/loam",
+        "y": 180
+      },
+      {
+        "model": "treeworld:block/loam",
+        "y": 270
+      }
+    ]
+  }
+}

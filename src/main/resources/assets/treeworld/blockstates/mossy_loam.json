@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "treeworld:block/mossy_loam"
+      },
+      {
+      "model": "treeworld:block/mossy_loam",
+      "y": 90
+      },
+      {
+      "model": "treeworld:block/mossy_loam",
+      "y": 180
+      },
+      {
+      "model": "treeworld:block/mossy_loam",
+      "y": 270
+      }
+    ]
+  }
+}
