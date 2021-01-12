@@ -1,6 +1,11 @@
 {
   "block.treeworld.loam": "Loam",
   "block.treeworld.mossy_loam": "Mossy Loam",
+  "block.treeworld.stripped_yew_log": "Stripped Yew Log",
+  "block.treeworld.stripped_yew_wood": "Stripped Yew Wood",
+  "block.treeworld.yew_log": "Yew Log",
+  "block.treeworld.yew_leaves": "Yew Leaves",
+  "block.treeworld.yew_planks": "Yew Planks",
   "block.treeworld.yew_sapling": "Yew Sapling",
   "generator.minecraft.treeworld": "Tree World"
 }

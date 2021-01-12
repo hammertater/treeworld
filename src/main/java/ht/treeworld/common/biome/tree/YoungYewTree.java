@@ -15,6 +15,9 @@ import net.minecraft.world.server.ServerWorld;
 import javax.annotation.Nullable;
 import java.util.Random;
 
+// Bark color code 363024
+// Inner color code 482e2b
+
 public class YoungYewTree extends Tree {
 
     @Nullable

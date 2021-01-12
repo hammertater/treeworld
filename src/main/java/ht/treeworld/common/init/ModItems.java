@@ -33,6 +33,41 @@ public class ModItems {
             )
     );
 
+    public static final RegistryObject<Item> STRIPPED_YEW_LOG = ITEMS.register("stripped_yew_log",
+            () -> new BlockItem(
+                    ModBlocks.STRIPPED_YEW_LOG.get(),
+                    new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)
+            )
+    );
+
+    public static final RegistryObject<Item> STRIPPED_YEW_WOOD = ITEMS.register("stripped_yew_wood",
+            () -> new BlockItem(
+                    ModBlocks.STRIPPED_YEW_WOOD.get(),
+                    new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)
+            )
+    );
+
+    public static final RegistryObject<Item> YEW_LEAVES = ITEMS.register("yew_leaves",
+            () -> new BlockItem(
+                    ModBlocks.YEW_LEAVES.get(),
+                    new Item.Properties().group(ItemGroup.MISC)
+            )
+    );
+
+    public static final RegistryObject<Item> YEW_LOG = ITEMS.register("yew_log",
+            () -> new BlockItem(
+                    ModBlocks.YEW_LOG.get(),
+                    new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)
+            )
+    );
+
+    public static final RegistryObject<Item> YEW_PLANKS = ITEMS.register("yew_planks",
+            () -> new BlockItem(
+                    ModBlocks.YEW_PLANKS.get(),
+                    new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)
+            )
+    );
+
     public static final RegistryObject<Item> YEW_SAPLING = ITEMS.register("yew_sapling",
             () -> new BlockItem(
                     ModBlocks.YEW_SAPLING.get(),

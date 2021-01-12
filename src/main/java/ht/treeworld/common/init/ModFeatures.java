@@ -19,8 +19,8 @@ public class ModFeatures {
     public static final RegistryObject<Feature<BaseTreeFeatureConfig>> YOUNG_YEW_TREE = FEATURES.register(
             "young_yew_tree",
             () -> new YoungYewTreeFeature.Builder()
-                    .withLog(Blocks.OAK_LOG)
-                    .withLeaves(Blocks.OAK_LEAVES)
+                    .withLog(ModBlocks.YEW_LOG.get())
+                    .withLeaves(ModBlocks.YEW_LEAVES.get())
                     .build()
     );
 
