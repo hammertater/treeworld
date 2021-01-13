@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "treeworld:block/stripped_yew_log_top",
+    "side": "treeworld:block/stripped_yew_log"
+  }
+}

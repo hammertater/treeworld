@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "treeworld:yew_log",
+    "treeworld:yew_wood",
+    "treeworld:stripped_yew_log",
+    "treeworld:stripped_yew_wood"
+  ]
+}
