@@ -57,18 +57,6 @@ public class ModBlocks {
             )
     );
 
-    public static final RegistryObject<Block> YEW_SAPLING = BLOCKS.register("yew_sapling",
-            () -> new SaplingBlock(
-                    new YoungYewTree(),
-                    AbstractBlock.Properties
-                            .create(Material.PLANTS)
-                            .doesNotBlockMovement()
-                            .tickRandomly()
-                            .zeroHardnessAndResistance()
-                            .sound(SoundType.PLANT)
-            )
-    );
-
     public static final RegistryObject<Block> YEW_LEAVES = BLOCKS.register("yew_leaves",
             () -> createLeavesBlock()
     );
@@ -82,6 +70,27 @@ public class ModBlocks {
                     AbstractBlock.Properties
                             .create(Material.WOOD, MaterialColor.WOOD)
                             .hardnessAndResistance(2.0F, 3.0F)
+                            .sound(SoundType.WOOD)
+            )
+    );
+
+    public static final RegistryObject<Block> YEW_SAPLING = BLOCKS.register("yew_sapling",
+            () -> new SaplingBlock(
+                    new YoungYewTree(),
+                    AbstractBlock.Properties
+                            .create(Material.PLANTS)
+                            .doesNotBlockMovement()
+                            .tickRandomly()
+                            .zeroHardnessAndResistance()
+                            .sound(SoundType.PLANT)
+            )
+    );
+
+    public static final RegistryObject<Block> YEW_WOOD = BLOCKS.register("yew_wood",
+            () -> new RotatedPillarBlock(
+                    AbstractBlock.Properties
+                            .create(Material.WOOD, MaterialColor.WOOD)
+                            .hardnessAndResistance(2.0F)
                             .sound(SoundType.WOOD)
             )
     );

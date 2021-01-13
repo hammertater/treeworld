@@ -75,4 +75,11 @@ public class ModItems {
             )
     );
 
+    public static final RegistryObject<Item> YEW_WOOD = ITEMS.register("yew_wood",
+            () -> new BlockItem(
+                    ModBlocks.YEW_WOOD.get(),
+                    new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)
+            )
+    );
+
 }
